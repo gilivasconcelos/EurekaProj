@@ -10,7 +10,7 @@ Futuramente pretende-se implementar novas funcionalidades e disseminar outras di
     IDE NetBens 8.2;
     MySql WorkBench 6.3;
 	mysql-connector-java-5.1.41;
-    GlassFish Server 4.1.1;
+    Apache Tomcat;
     JDK 1.8;
     Java EE 7 Web;
     Bootstrap-3.3.7;
