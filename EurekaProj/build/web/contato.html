@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html lang="pt br">
+
+<head>
+<meta http-equiv="Content-Language" content="pt-br">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>Site Social</title>
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<!-- Custom CSS 
+<link href="css/shop-item.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" />-->
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+<!-- funcoes javaScript 
+<script	src="js/funcoes.js"></script>
+<script src="js/paginate.js"></script>
+<script src="js/custom.js"></script>-->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Text Area -->
+<script src="js/tinymce/tinymce.min.js"></script>
+
+
+
+<style>
+.modal-header,h4,.close {
+	background-color: #5cb85c;
+	color: white !important;
+	text-align: center;
+	font-size: 30px;
+}
+
+.modal-footer {
+	background-color: #f9f9f9;
+}
+</style>
+
+</head>
+
+<body>
+
+	<!-- Navigation -->
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="#">Eureka Quiz</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="login.jsp">Inicio</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">O projeto</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="loginAutenticacao.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+	<!-- Page Content -->
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-md-3">
+                            <br><br>
+                            <br>
+                            
+				<p class="lead">Comece por aqui!</p>
+				<div class="list-group">
+                                    <a href="animateMaps.html" style="text-align: center"
+						class="list-group-item active">Novo Jogo</a>
+					 <a href="doa_se.html"
+						style="text-align: center" class="list-group-item ">Ranking</a> <a
+						href="em_construcao.html#mod_constru" style="text-align: center"
+						class="list-group-item">Noticias</a> 
+                                                <a href="animateMaps.html" style="text-align: center"
+						class="list-group-item">Instituições Parceiras</a>
+
+				</div>
+				<div class="text-center">
+					<label for="msg">Compartilhe nosso site </label> <br> <a
+						href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fnascerdenovo.16mb.com%2Findex.html&amp;src=sdkpreparse"
+						class="btn btn-primary btn-sm active" role="button"
+						aria-pressed="true">Facebook</a>
+				</div>
+
+
+
+			</div>
+
+			<div class="col-md-9">
+				<div class="list-group-item active text-center">
+                                    <h2>Entre em contato</h2>
+				</div>
+                            <br>
+
+				<div class="well">
+
+					<div class="text-left">Fale conosco</div>
+				</div>
+				
+
+				<div class="page col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+					<h2>Preencha o formulário</h2>
+				
+				<div>Gostaria de alguma outra informação?</div>
+
+				<div>Dar alguma sugestão de melhoria?</div>
+
+				<div>
+					Tem alguma dúvida? <br> <br>
+
+					<form method="post" action="msg.php">
+
+						<p>
+						<div class="form-group form-group-sm col-xs-8">
+							<label for="nome"><span class="glyphicon glyphicon-user"></span>
+								Nome Completo</label> <input type="text" class="form-control input-sm"
+								id="nome" name="nome" placeholder="Nome" required
+								oninvalid="setCustomValidity('Por favor, preencha o nome')"
+								onchange="try{setCustomValidity('')}catch(e){}">
+						</div>
+						<div class="form-group form-group-sm col-xs-8">
+							<label for="fone"><span
+								class="glyphicon glyphicon-earphone"></span> Telefone</label> <input
+								type="text" class="form-control input-sm" id="fone" name="fone"
+								placeholder="(xx)xxxxx-xxxx" required
+								oninvalid="setCustomValidity('Por favor, preencha o telefone')" onchange="try{setCustomValidity('')}catch(e){}">
+						</div>
+
+						<div class="form-group form-group-sm col-xs-8">
+							<label for="email"><span
+								class="glyphicon glyphicon-envelope"></span> E-mail</label> <input
+								type="text" class="form-control input-sm" id="email" name="email"
+								placeholder="Digite seu email" required
+								oninvalid="setCustomValidity('Por favor, preencha o e-mail')" onchange="try{setCustomValidity('')}catch(e){}">
+						</div>
+
+						<br>
+						</p>
+						<div class="form-group form-group-sm col-xs-8">
+							<div style="text-align: left">
+								<label for="msg">Mensagem:</label>
+
+								<textarea id="msg" name="msg" class="form-control" rows="5" required
+									oninvalid="setCustomValidity('Por favor, preencha o campo texto')" onchange="try{setCustomValidity('')}catch(e){}"></textarea>
+							</div>
+
+							<div style="text-align: left">
+								<label for="imagem">Anexar imagem</label> <input type="file"
+									name="imagem" accept="image/*">
+							</div>
+
+							<div class="modal-footer">
+								<button type="submit" class="btn btn-success pull-left">
+									<span class="glyphicon glyphicon-ok"></span> Enviar
+								</button>
+								
+							</div>
+						</div>
+
+					</form>
+
+				</div>
+
+			</div>
+
+
+
+		</div>
+	</div>
+	</div>
+
+	<!-- /.container -->
+
+	<!-- /.container -->
+
+	<div class="container">
+
+		<hr>
+
+		<!-- Footer -->
+	     <footer>
+            <div class="row">
+			
+			<div class="col-lg-12">
+			
+			Siga nossa pagina no Facebook
+			<a href="https://www.facebook.com/giliard.goncalves.3"><img src="imagens/seguir.bmp"
+			class="img-circle" alt="Cinque Terre" width="35"
+			height="35"></a>
+			</div>
+            </div>
+				<div class="row">
+				<div class="col-lg-12">
+					<p>
+						2016 Desenvolvido por <a
+							href="https://br.linkedin.com/in/giliard-vasconcelos-3126a468/en">Giliard
+							Vasconcelos<a>
+					</p>
+				</div>
+			</div>
+        </footer>
+
+	</div>
+	<!-- /.container -->
+
+
+</body>
+
+</html>
