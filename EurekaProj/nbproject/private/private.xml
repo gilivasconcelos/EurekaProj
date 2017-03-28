@@ -3,10 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/vascongi/Documents/GitHub/EurekaQuiz/EurekaProj/web/index.html</file>
-            <file>file:/C:/Users/vascongi/Documents/GitHub/EurekaQuiz/EurekaProj/test/Dao/UserDao.java</file>
+            <file>file:/C:/Users/vascongi/Documents/GitHub/EurekaQuiz/EurekaProj/test/Dao/UsuarioDao.java</file>
+            <file>file:/C:/Users/vascongi/Documents/GitHub/EurekaQuiz/EurekaProj/test/Dao/AutenticarServlet.java</file>
             <file>file:/C:/Users/vascongi/Documents/GitHub/EurekaQuiz/EurekaProj/test/model/Pessoa.java</file>
-            <file>file:/C:/Users/vascongi/Documents/GitHub/EurekaQuiz/EurekaProj/test/Dao/DbUtil.java</file>
         </group>
     </open-files>
 </project-private>

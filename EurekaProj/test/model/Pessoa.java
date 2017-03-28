@@ -14,18 +14,20 @@ import java.sql.Date;
 public class Pessoa {
 
     private int idPessoa;
+    private int numero;
+    private double score; 
     private String primeiroNome;
     private String ultimoNome;
     private Date dataNasc;
     private String sexo;
-    private String[] perfil;
-    private String[] disciplina;
+    private String profissao;
+    private String perfil;
+    private String[] disciplina[];
     private String email;
     private String telefone;
     private String instituicao;
     private String login;
     private String senha; 
-    private int numero;
     private String cidade;
     private String estado;
     private String ruaAv;
@@ -43,6 +45,34 @@ public class Pessoa {
      */
     public void setIdPessoa(int idPessoa) {
         this.idPessoa = idPessoa;
+    }
+
+    /**
+     * @return the numero
+     */
+    public int getNumero() {
+        return numero;
+    }
+
+    /**
+     * @param numero the numero to set
+     */
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
+    /**
+     * @return the score
+     */
+    public double getScore() {
+        return score;
+    }
+
+    /**
+     * @param score the score to set
+     */
+    public void setScore(double score) {
+        this.score = score;
     }
 
     /**
@@ -101,31 +131,18 @@ public class Pessoa {
         this.sexo = sexo;
     }
 
-    /**
-     * @return the perfil
-     */
-    public String[] getPerfil() {
-        return perfil;
-    }
-
-    /**
-     * @param perfil the perfil to set
-     */
-    public void setPerfil(String[] perfil) {
-        this.perfil = perfil;
-    }
-
+ 
     /**
      * @return the disciplina
      */
-    public String[] getDisciplina() {
+    public String[][] getDisciplina() {
         return disciplina;
     }
 
     /**
      * @param disciplina the disciplina to set
      */
-    public void setDisciplina(String[] disciplina) {
+    public void setDisciplina(String[][] disciplina) {
         this.disciplina = disciplina;
     }
 
@@ -200,20 +217,6 @@ public class Pessoa {
     }
 
     /**
-     * @return the numero
-     */
-    public int getNumero() {
-        return numero;
-    }
-
-    /**
-     * @param numero the numero to set
-     */
-    public void setNumero(int numero) {
-        this.numero = numero;
-    }
-
-    /**
      * @return the cidade
      */
     public String getCidade() {
@@ -269,5 +272,32 @@ public class Pessoa {
         this.bairro = bairro;
     }
 
+    /**
+     * @return the perfil
+     */
+    public String getPerfil() {
+        return perfil;
+    }
+
+    /**
+     * @param perfil the perfil to set
+     */
+    public void setPerfil(String perfil) {
+        this.perfil = perfil;
+    }
+
+    /**
+     * @return the profissao
+     */
+    public String getProfissao() {
+        return profissao;
+    }
+
+    /**
+     * @param profissao the profissao to set
+     */
+    public void setProfissao(String profissao) {
+        this.profissao = profissao;
+    }
 
 }
