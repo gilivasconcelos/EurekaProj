@@ -1,3 +1,5 @@
+package controller;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -7,19 +9,18 @@
 import Dao.uDAO;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import javax.servlet.RequestDispatcher;
+import java.sql.SQLException;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 /**
  *
  * @author vascongi
  */
-public class NewServlet extends HttpServlet {
+public class autenticaUsuario extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -30,28 +31,22 @@ public class NewServlet extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-   protected void doPost(HttpServletRequest request, HttpServletResponse response)
+    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        PrintWriter out = response.getWriter();
-        
-       
+
         String login = request.getParameter("login");
         String senha = request.getParameter("senha");
-        
-        if(uDAO.validaUsuario (login, senha))
-        {
-            RequestDispatcher rs = request.getRequestDispatcher("teste.html");
-           rs.forward(request, response);
+
+        try (PrintWriter out = response.getWriter()) {
             
-             //response.sendRedirect("teste.html");
-        }
-        else
-        {
-           
-           RequestDispatcher rs = request.getRequestDispatcher("erroLogin.html");
-           
-           rs.include(request, response);
+            if (uDAO.validaUsuario(login, senha)) {
+                HttpSession session = request.getSession();
+                session.setAttribute("login", login);
+                response.sendRedirect("logado.html");
+            } else {
+                response.sendRedirect("erroLogin.html");
+            }
         }
     }
 
@@ -78,7 +73,11 @@ public class NewServlet extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-   
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        processRequest(request, response);
+    }
 
     /**
      * Returns a short description of the servlet.
@@ -89,9 +88,5 @@ public class NewServlet extends HttpServlet {
     public String getServletInfo() {
         return "Short description";
     }// </editor-fold>
-
-    private void processRequest(HttpServletRequest request, HttpServletResponse response) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
 
 }

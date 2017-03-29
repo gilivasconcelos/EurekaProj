@@ -5,8 +5,7 @@ import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 import java.util.ArrayList;
 import java.util.List;
-import sys.userclass.userProfile;
-import sys.userclass.userServices;
+
 
 public final class newjsp_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {

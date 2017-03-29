@@ -10,7 +10,7 @@
     </servlet>
     <servlet>
         <servlet-name>autenticaUsuario</servlet-name>
-        <servlet-class>autenticaUsuario</servlet-class>
+        <servlet-class>controller.autenticaUsuario</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Navegacao</servlet-name>

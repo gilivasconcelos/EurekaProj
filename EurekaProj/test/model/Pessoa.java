@@ -20,7 +20,6 @@ public class Pessoa {
     private String ultimoNome;
     private Date dataNasc;
     private String sexo;
-    private String profissao;
     private String perfil;
     private String[] disciplina[];
     private String email;
@@ -286,18 +285,6 @@ public class Pessoa {
         this.perfil = perfil;
     }
 
-    /**
-     * @return the profissao
-     */
-    public String getProfissao() {
-        return profissao;
-    }
 
-    /**
-     * @param profissao the profissao to set
-     */
-    public void setProfissao(String profissao) {
-        this.profissao = profissao;
-    }
 
 }
