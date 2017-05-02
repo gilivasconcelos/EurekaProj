@@ -1,0 +1,46 @@
+C:\Users\Gili\Documents\Visual Studio 2015\Projects\EurekaQuiz\EurekaQuiz\obj\x86\Debug\EurekaQuiz.csprojResolveAssemblyReference.cache
+C:\Users\Gili\Documents\Visual Studio 2015\Projects\EurekaQuiz\EurekaQuiz\obj\x86\Debug\EurekaQuiz.TelaInicial.resources
+C:\Users\Gili\Documents\Visual Studio 2015\Projects\EurekaQuiz\EurekaQuiz\obj\x86\Debug\EurekaQuiz.Properties.Resources.resources
+C:\Users\Gili\Documents\Visual Studio 2015\Projects\EurekaQuiz\EurekaQuiz\obj\x86\Debug\EurekaQuiz.csproj.GenerateResource.Cache
+C:\Users\Gili\Documents\Visual Studio 2015\Projects\EurekaQuiz\EurekaQuiz\bin\Debug\EurekaQuiz.exe
+C:\Users\Gili\Documents\Visual Studio 2015\Projects\EurekaQuiz\EurekaQuiz\bin\Debug\EurekaQuiz.pdb
+C:\Users\Gili\Documents\Visual Studio 2015\Projects\EurekaQuiz\EurekaQuiz\obj\x86\Debug\EurekaQuiz.CadastroUsuario.resources
+C:\Users\Gili\Documents\Visual Studio 2015\Projects\EurekaQuiz\EurekaQuiz\obj\x86\Debug\EurekaQuiz.exe
+C:\Users\Gili\Documents\Visual Studio 2015\Projects\EurekaQuiz\EurekaQuiz\obj\x86\Debug\EurekaQuiz.pdb
+C:\Users\Gili\Documents\Visual Studio 2010\EurekaQuiz\EurekaQuiz\obj\x86\Debug\EurekaQuiz.exe
+C:\Users\Gili\Documents\Visual Studio 2010\EurekaQuiz\EurekaQuiz\obj\x86\Debug\EurekaQuiz.pdb
+C:\Users\Gili\Documents\Visual Studio 2010\EurekaQuiz\EurekaQuiz\bin\Debug\EurekaQuiz.exe
+C:\Users\Gili\Documents\Visual Studio 2010\EurekaQuiz\EurekaQuiz\bin\Debug\EurekaQuiz.pdb
+C:\Users\Gili\Documents\Visual Studio 2010\EurekaQuiz\EurekaQuiz\obj\x86\Debug\EurekaQuiz.csprojResolveAssemblyReference.cache
+C:\Users\Gili\Documents\Visual Studio 2010\EurekaQuiz\EurekaQuiz\obj\x86\Debug\EurekaQuiz.Properties.Resources.resources
+C:\Users\Gili\Documents\Visual Studio 2010\EurekaQuiz\EurekaQuiz\obj\x86\Debug\EurekaQuiz.csproj.GenerateResource.Cache
+C:\Users\Gili\Documents\Visual Studio 2010\EurekaQuiz\EurekaQuiz\obj\x86\Debug\EurekaQuiz.FrmCadastroPessoa.resources
+C:\Users\Gili\Documents\Visual Studio 2010\EurekaQuiz\EurekaQuiz\obj\x86\Debug\EurekaQuiz.FrmCadQuestao.resources
+C:\Users\Gili\Documents\Visual Studio 2010\EurekaQuiz\EurekaQuiz\obj\x86\Debug\EurekaQuiz.FrmConfig.resources
+C:\Users\Gili\Documents\Visual Studio 2010\EurekaQuiz\EurekaQuiz\obj\x86\Debug\EurekaQuiz.FrmIndices.resources
+C:\Users\Gili\Documents\Visual Studio 2010\EurekaQuiz\EurekaQuiz\obj\x86\Debug\EurekaQuiz.FrmNovoJogo.resources
+C:\Users\Gili\Documents\Visual Studio 2010\EurekaQuiz\EurekaQuiz\obj\x86\Debug\EurekaQuiz.FrmTelaInicio.resources
+C:\Users\Gili\Documents\Visual Studio 2010\EurekaQuiz\EurekaQuiz\obj\x86\Debug\EurekaQuiz.FrmLogin.resources
+C:\Users\Gili\Documents\Visual Studio 2010\EurekaQuiz\EurekaQuiz\obj\x86\Debug\EurekaQuiz.FrmPainelAdm.resources
+C:\Users\Gili\Documents\Visual Studio 2010\EurekaQuiz\EurekaQuiz\obj\x86\Debug\EurekaQuiz.FrmResetarSenha.resources
+C:\Users\Gili\Documents\Visual Studio 2010\EurekaQuiz\EurekaQuiz\bin\Debug\EurekaQuiz.exe.config
+C:\Users\Gili\Documents\Visual Studio 2010\Projects\EurekaQuiz c# 2010\EurekaQuiz\bin\Debug\EurekaQuiz.exe.config
+C:\Users\Gili\Documents\Visual Studio 2010\Projects\EurekaQuiz c# 2010\EurekaQuiz\obj\x86\Debug\EurekaQuiz.exe
+C:\Users\Gili\Documents\Visual Studio 2010\Projects\EurekaQuiz c# 2010\EurekaQuiz\obj\x86\Debug\EurekaQuiz.pdb
+C:\Users\Gili\Documents\Visual Studio 2010\Projects\EurekaQuiz c# 2010\EurekaQuiz\bin\Debug\EurekaQuiz.exe
+C:\Users\Gili\Documents\Visual Studio 2010\Projects\EurekaQuiz c# 2010\EurekaQuiz\bin\Debug\EurekaQuiz.pdb
+C:\Users\Gili\Documents\Visual Studio 2010\Projects\EurekaQuiz c# 2010\EurekaQuiz\obj\x86\Debug\EurekaQuiz.FrmCadastroPessoa.resources
+C:\Users\Gili\Documents\Visual Studio 2010\Projects\EurekaQuiz c# 2010\EurekaQuiz\obj\x86\Debug\EurekaQuiz.FrmCadQuestao.resources
+C:\Users\Gili\Documents\Visual Studio 2010\Projects\EurekaQuiz c# 2010\EurekaQuiz\obj\x86\Debug\EurekaQuiz.FrmConfig.resources
+C:\Users\Gili\Documents\Visual Studio 2010\Projects\EurekaQuiz c# 2010\EurekaQuiz\obj\x86\Debug\EurekaQuiz.FrmIndices.resources
+C:\Users\Gili\Documents\Visual Studio 2010\Projects\EurekaQuiz c# 2010\EurekaQuiz\obj\x86\Debug\EurekaQuiz.FrmNovoJogo.resources
+C:\Users\Gili\Documents\Visual Studio 2010\Projects\EurekaQuiz c# 2010\EurekaQuiz\obj\x86\Debug\EurekaQuiz.FrmPainelAdm.resources
+C:\Users\Gili\Documents\Visual Studio 2010\Projects\EurekaQuiz c# 2010\EurekaQuiz\obj\x86\Debug\EurekaQuiz.FrmResetarSenha.resources
+C:\Users\Gili\Documents\Visual Studio 2010\Projects\EurekaQuiz c# 2010\EurekaQuiz\obj\x86\Debug\EurekaQuiz.FrmTelaInicio.resources
+C:\Users\Gili\Documents\Visual Studio 2010\Projects\EurekaQuiz c# 2010\EurekaQuiz\obj\x86\Debug\EurekaQuiz.FrmLogin.resources
+C:\Users\Gili\Documents\Visual Studio 2010\Projects\EurekaQuiz c# 2010\EurekaQuiz\obj\x86\Debug\EurekaQuiz.Properties.Resources.resources
+C:\Users\Gili\Documents\Visual Studio 2010\Projects\EurekaQuiz c# 2010\EurekaQuiz\obj\x86\Debug\EurekaQuiz.csproj.GenerateResource.Cache
+C:\Users\Gili\Documents\Visual Studio 2010\Projects\EurekaQuiz c# 2010\EurekaQuiz\obj\x86\Debug\EurekaQuiz.FrmApresentacao.resources
+C:\Users\Gili\Documents\Visual Studio 2010\Projects\EurekaQuiz c# 2010\EurekaQuiz\obj\x86\Debug\EurekaQuiz.FrmEscolherNivel.resources
+C:\Users\Gili\Documents\Visual Studio 2010\Projects\EurekaQuiz c# 2010\EurekaQuiz\obj\x86\Debug\EurekaQuiz.FrmAlterarCadPessoa.resources
+C:\Users\Gili\Documents\Visual Studio 2010\Projects\EurekaQuiz c# 2010\EurekaQuiz\obj\x86\Debug\EurekaQuiz.csprojResolveAssemblyReference.cache
