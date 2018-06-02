@@ -5,6 +5,7 @@ Eureka Quiz é um sistema para cadastro de perguntas e respostas com possibilida
 
 # Descrição do projeto:
     IDE Visual Studio 2010;
+        C# forms desktop;
     MySql WorkBench 6.3;
 	mysql-connector-java-5.1.41;
     
